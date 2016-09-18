@@ -331,7 +331,8 @@ p {
 }
 .header-bottom .navbar-default .navbar-brand {
 /*  display: block;*/
-  padding: 48px 0px 0px 15px;
+/*  padding: 48px 0px 0px 15px;*/
+  padding: 0px 0px 0px 15px;
   line-height: 130px;
   max-width: 100px;
   max-height: 100px;    

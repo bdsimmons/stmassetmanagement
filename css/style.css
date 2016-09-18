@@ -86,14 +86,14 @@ p {
 .section-header h2 {
   font: 400 41px/70px "Montserrat", sans-serif;
   letter-spacing: 0.50px;
-  color: #373c5f;
+  color: white;
   text-transform: uppercase;
 }
 .section-header h2:after {
   content: '';
   width: 40px;
   height: 2px;
-  background: #b49132;
+  background: #F4984E;
   display: block;
   left: 50%;
   transform: translateX(-50%);
@@ -110,7 +110,7 @@ p {
 .tittle {
   font: 400 41px/41px "Montserrat", sans-serif;
   letter-spacing: 0.50px;
-  color: #373c5f;
+  color: #4482A7;
   text-transform: uppercase;
   margin-bottom: 80px;
 }
@@ -120,7 +120,7 @@ p {
   content: '';
   width: 40px;
   height: 2px;
-  background: #b49132;
+  background: #F4984E;
   position: relative;
   display: block;
 }
@@ -133,7 +133,9 @@ p {
 }
 .partner-logo-area:before {
   content: "";
-  background: rgba(180, 145, 50, 0.9);
+/*  background: rgba(180, 145, 50, 0.9);*/
+  background: #005893;
+  opacity: .7;
   position: absolute;
   left: 0;
   top: 0px;
@@ -191,7 +193,7 @@ p {
 .dot_1 {
   animation: animateDot1 1.5s linear infinite;
   left: 12px;
-  background: #b49132;
+  background: #F4984E;
 }
 
 .dot_2 {
@@ -283,7 +285,7 @@ p {
 /*====================header css=======================*/
 /*==================header-top================*/
 .header-top {
-  background: #b49132;
+  background: white;
 }
 .header-top .top-nav {
   display: inline-block;
@@ -293,7 +295,7 @@ p {
 }
 .header-top .top-nav li a {
   font: 400 14px/50px "Raleway", sans-serif;
-  color: #fff;
+  color: #F4984E;
   padding: 0;
 }
 .header-top .top-nav li a i {
@@ -316,6 +318,10 @@ p {
   transform: rotate(90deg);
 }
 
+.opac70 {
+    opacity: .7;
+}
+
 .header-bottom .navbar-default {
   border: 0px;
   box-shadow: none;
@@ -324,10 +330,12 @@ p {
   border-radius: 0px;
 }
 .header-bottom .navbar-default .navbar-brand {
-  display: block;
+/*  display: block;*/
   padding: 48px 0px 0px 15px;
   line-height: 130px;
-  height: auto;
+  max-width: 100px;
+  max-height: 100px;    
+/*  height: auto;*/
 }
 .header-bottom .navbar-default .navbar-nav {
   padding-top: 60px;
@@ -339,7 +347,7 @@ p {
 .header-bottom .navbar-default .navbar-nav li a {
   padding: 0;
   font: 400 16px/22px "Raleway", sans-serif;
-  color: #9d9d9d;
+  color: #4482A7;
   box-shadow: none;
   position: relative;
 }
@@ -352,12 +360,12 @@ p {
   bottom: -6px;
   left: 50%;
   opacity: 0;
-  background: #b49132;
+  background: #F4984E;
   transition: all 300ms linear 0s;
 }
 .header-bottom .navbar-default .navbar-nav li a:hover, .header-bottom .navbar-default .navbar-nav li a:focus {
   background: none;
-  color: #b49132;
+  color: #F4984E;
   box-shadow: none;
 }
 .header-bottom .navbar-default .navbar-nav li + li {
@@ -372,7 +380,7 @@ p {
   margin-left: 5px;
 }
 .header-bottom .navbar-default .navbar-nav li.dropdown .dropdown-menu {
-  background: #b49132;
+  background: #F4984E;
   box-shadow: none;
   border: none;
   min-width: 170px;
@@ -415,7 +423,7 @@ p {
   }
 }
 .header-bottom .navbar-default .navbar-nav .active a {
-  color: #b49132;
+  color: #F4984E;
   background: none;
   box-shadow: none;
 }
@@ -502,7 +510,7 @@ p {
   letter-spacing: 0.50px;
   width: 210px;
   display: inline-block;
-  background: #b49132;
+  background: #F4984E;
   color: #fff;
   height: 50px;
   padding: 0px;
@@ -527,7 +535,7 @@ p {
   font: 700 16px/50px "Catamaran", sans-serif;
   position: absolute;
   background: none;
-  border: 2px solid #b49132;
+  border: 2px solid #F4984E;
   border-radius: 0px;
   content: "";
   transform-origin: left bottom;
@@ -544,12 +552,14 @@ p {
 /*====================================================*/
 /*===================services area css============================*/
 .services-area {
-  background: #f5f5f5;
+  background: white;
 }
 
 .service-group {
   padding: 50px 0px 40px 0px;
-  background: #fff;
+/*  background: #fff;*/
+  background: #005893;
+  opacity: 0.7;    
   position: relative;
   z-index: 1;
   margin-top: -70px;
@@ -573,21 +583,21 @@ p {
 }
 .service-group-1 .content h2 {
   font: 400 24px/20px "Montserrat", sans-serif;
-  color: #373c5f;
+  color: #F4984E;
 }
 .service-group-1 .content p {
   letter-spacing: 0.25px;
-  color: #999999;
+  color: #F1F1F1;
   padding: 22px 50px 17px 50px;
 }
 
 .box-i {
   width: 60px;
   height: 60px;
-  border: 1px solid #b49132;
+  border: 1px solid #F4984E;
   font-size: 32px;
   line-height: 50px;
-  color: #b49132;
+  color: #F4984E;
   border-radius: 1px;
   text-align: center;
   margin: 0 auto;
@@ -595,7 +605,7 @@ p {
 
 .read-button {
   font: 100 14px/24px "Catamaran", sans-serif;
-  color: #b49132;
+  color: #F4984E;
   display: inline-block;
 }
 .read-button i {
@@ -609,7 +619,7 @@ p {
   padding-left: 5px;
 }
 .read-button:hover {
-  color: #373c5f;
+  color: white;
 }
 .read-button:hover i {
   transform: translateX(5px);
@@ -624,17 +634,17 @@ p {
 .services-promo .s-info {
   max-width: 180px;
   height: 180px;
-  border: 1px solid #b49132;
+  border: 1px solid #F4984E;
   text-align: center;
   position: relative;
 }
 .services-promo .s-info span {
-  color: #b49132;
+  color: #F4984E;
   font: 700 52px/180px "Montserrat", sans-serif;
 }
 .services-promo .s-info-text {
   width: 80px;
-  background: #f5f5f5;
+  background: white;
   margin-left: 0px;
   position: absolute;
   top: 50%;
@@ -685,7 +695,7 @@ p {
   padding-bottom: 53px;
 }
 .about-us-area .a-text .button:after {
-  color: #b49132;
+  color: #F4984E;
   content: "Read More";
 }
 
@@ -704,8 +714,8 @@ p {
   bottom: 0;
   left: 0;
   right: 0;
-  background: #000;
-  opacity: 0.75;
+  background: #005893;
+  opacity: 0.7;
   z-index: -1;
 }
 .call-action-baner-area .baner-content {
@@ -718,7 +728,7 @@ p {
 }
 .call-action-baner-area .baner-content span {
   font-weight: 700;
-  color: #b49132;
+  color: #F4984E;
 }
 .call-action-baner-area .baner-content p {
   padding: 14px 0px 55px 0px;
@@ -779,7 +789,7 @@ p {
 /*==================our process area============*/
 .process-area {
   padding: 98px 0px 50px 0px;
-  background: #f4f4f4;
+  background: #4482A7;
 }
 .process-area .p-timeline {
   max-width: 810px;
@@ -818,7 +828,7 @@ p {
   content: "";
   position: absolute;
   border-radius: 50%;
-  border: 1px solid #b49132;
+  border: 1px solid #F4984E;
   right: 69px;
   top: 17%;
 }
@@ -841,19 +851,19 @@ p {
 .process-area .p-timeline .column .media .media-left span {
   font: 400 56px "Montserrat", sans-serif;
   letter-spacing: 0.50px;
-  color: #b49132;
+  color: #F4984E;
 }
 .process-area .p-timeline .column .media .media-body {
   vertical-align: middle;
 }
 .process-area .p-timeline .column .media .media-body h2 {
   font: 400 18px/32px "Montserrat", sans-serif;
-  color: #373c5f;
+  color: #F4984E;
   display: inline-block;
 }
 .process-area .p-timeline .column p {
   letter-spacing: 0.20px;
-  color: #7d7d7d;
+  color: white;
   padding: 12px 10px 0px 0px;
 }
 .process-area .p-timeline .column:nth-child(even) {
@@ -880,7 +890,7 @@ p {
   content: "";
   position: absolute;
   border-radius: 50%;
-  border: 1px solid #b49132;
+  border: 1px solid #F4984E;
   left: 69px;
   right: auto;
   top: 16%;
@@ -961,7 +971,7 @@ p {
   transition: all 300ms linear 0s;
 }
 .team-area .team .team-item .social-icon li a:hover {
-  color: #b49132;
+  color: #F4984E;
 }
 .team-area .team .team-item .social-icon li + li {
   margin-left: 40px;
@@ -972,11 +982,11 @@ p {
 }
 .team-area .team .team-item .text h4 {
   font: 700 18px/30px "Raleway", sans-serif;
-  color: #373c5f;
+  color: #4482A7;
   transition: all 300ms linear 0s;
 }
 .team-area .team .team-item .text h4:hover {
-  color: #b49132;
+  color: #F4984E;
 }
 .team-area .team .team-item .text p {
   font: 300 14px/34px "Raleway", sans-serif;
@@ -998,13 +1008,13 @@ p {
   width: 8px;
   height: 8px;
   border-radius: 50%;
-  border: 1px solid #b49132;
+  border: 1px solid #F4984E;
 }
 .team-area .team .owl-controls .owl-dots .owl-dot + .owl-dot {
   margin-left: 10px;
 }
 .team-area .team .owl-controls .owl-dots .owl-dot.active {
-  background: #b49132;
+  background: #F4984E;
   width: 10px;
   height: 10px;
 }
@@ -1013,7 +1023,7 @@ p {
 /*====================================================*/
 /*==================latest news area css=========================*/
 .latest-news-area {
-  background: #f1f1f1;
+  background: white;
   padding: 120px 0px 113px 0px;
 }
 
@@ -1029,7 +1039,7 @@ p {
 }
 .l-news-left .news-info .media .media-body h3 {
   font: 400 18px/27px "Montserrat", sans-serif;
-  color: #373c5f;
+  color: #4482A7;
 }
 .l-news-left .news-info .media .media-body .post-meta {
   padding-top: 16px;
@@ -1053,10 +1063,10 @@ p {
 }
 .l-news-left .news-info .media .media-body .post-meta li a:hover {
   background: none;
-  color: #b49132;
+  color: #F4984E;
 }
 .l-news-left .news-info .media .media-body .post-meta li a:hover i {
-  color: #b49132;
+  color: #F4984E;
 }
 .l-news-left .news-info .media .media-body .post-meta li + li {
   padding-left: 20px;
@@ -1081,7 +1091,7 @@ p {
   padding-left: 0;
 }
 .l-news-right .l-slider {
-  background: #fff;
+  background: #F1F1F1;
   text-align: center;
   padding: 100px 0px 57px 0px;
 }
@@ -1094,7 +1104,7 @@ p {
   content: '';
   width: 40px;
   height: 2px;
-  background: #b49132;
+  background: #F4984E;
   display: block;
   left: 50%;
   transform: translateX(-50%);
@@ -1112,7 +1122,7 @@ p {
 .l-news-right .l-slider h4 {
   padding-top: 23px;
   font: 400 18px/20px "Montserrat", sans-serif;
-  color: #373c5f;
+  color: #4482A7;
 }
 .l-news-right .l-slider h4 span {
   font: 300 16px/20px "Raleway", sans-serif;
@@ -1127,13 +1137,13 @@ p {
   width: 8px;
   height: 8px;
   border-radius: 50%;
-  border: 1px solid #b49132;
+  border: 1px solid #F4984E;
 }
 .l-news-right .l-slider .owl-controls .owl-dots .owl-dot + .owl-dot {
   margin-left: 12px;
 }
 .l-news-right .l-slider .owl-controls .owl-dots .owl-dot.active {
-  background: #b49132;
+  background: #F4984E;
   width: 10px;
   height: 10px;
 }
@@ -1216,7 +1226,7 @@ p {
   border: 0px;
   padding: 10px 43px;
   text-transform: uppercase;
-  background: #b49132;
+  background: #F4984E;
   filter: grayscale(0) !important;
   -webkit-filter: grayscale(0) !important;
 }
@@ -1242,7 +1252,7 @@ p {
 }
 .request-contact .button:after {
   content: "submit";
-  color: #b49132;
+  color: #F4984E;
 }
 
 .contact-form .form-group .input-group {
@@ -1345,8 +1355,8 @@ p {
   height: 100%;
   display: block;
   position: absolute;
-  background: #000;
-  opacity: 0.80;
+  background: #005893;
+  opacity: 0.70;
   z-index: -1;
   top: 0;
   bottom: 0;
@@ -1372,7 +1382,7 @@ p {
 }
 .location-slider .location-content h2 {
   font: 400 24px/25px "Montserrat", sans-serif;
-  color: #b49132;
+  color: #F4984E;
   padding-bottom: 4px;
 }
 .location-slider .location-content .media .media-left {
@@ -1397,13 +1407,13 @@ p {
   width: 8px;
   height: 8px;
   border-radius: 50%;
-  border: 1px solid #b49132;
+  border: 1px solid #F4984E;
 }
 .location-slider .owl-controls .owl-dots .owl-dot + .owl-dot {
   margin-left: 12px;
 }
 .location-slider .owl-controls .owl-dots .owl-dot.active {
-  background: #b49132;
+  background: #F4984E;
   width: 10px;
   height: 10px;
 }
@@ -1461,7 +1471,7 @@ p {
   color: #000;
 }
 .b-banner li + li:before {
-  color: #b49132;
+  color: #F4984E;
 }
 .b-banner li.active {
   color: #000;
@@ -1496,7 +1506,7 @@ p {
   margin-top: 0px;
 }
 .featured-left .items .tittle:hover {
-  color: #b49132;
+  color: #F4984E;
 }
 .featured-left .items p {
   padding: 18px 0px 0px 5px;
@@ -1518,7 +1528,7 @@ p {
 }
 .sidebar-right .sidebar-widget .widget-tittle {
   font: 400 18px/27px "Montserrat", sans-serif;
-  color: #373c5f;
+  color: #005893;
   margin-bottom: 23px;
   text-transform: capitalize;
 }
@@ -1570,7 +1580,7 @@ p {
 }
 .sidebar-right .testimonial h4 {
   font: 400 14px/20px "Montserrat", sans-serif;
-  color: #373c5f;
+  color: #005893;
   padding-top: 15px;
 }
 .sidebar-right .testimonial h4 span {
@@ -1588,7 +1598,7 @@ p {
 }
 .sidebar-right .r-news p {
   font-weight: 700;
-  color: #373c5f;
+  color: #005893;
 }
 .sidebar-right .r-news a {
   font: 300 12px/28px "Raleway", sans-serif;
@@ -1598,7 +1608,7 @@ p {
   display: inline-block;
 }
 .sidebar-right .r-news a i {
-  color: #b49132;
+  color: #F4984E;
   font-size: 14px;
   float: left;
   line-height: 28px;
@@ -1610,13 +1620,13 @@ p {
 }
 .widget-categories .categories li a {
   font: 400 14px/26px "Montserrat", sans-serif;
-  color: #373c5f;
+  color: #005893;
   background: #f4f4f4;
   padding: 12px 20px 12px;
   transition: all 300ms linear 0s;
 }
 .widget-categories .categories.inner li:hover a {
-  background: #b49132;
+  background: #F4984E;
   color: #fff;
 }
 
@@ -1653,7 +1663,7 @@ p {
   position: absolute;
   right: 20px;
   top: 30%;
-  color: #373c5f;
+  color: #005893;
 }
 .select-widget .form-group .input-group .dropdown-menu {
   border-radius: 0px;
@@ -1749,7 +1759,7 @@ p {
 }
 .single-blog h2 {
   font: 400 42px/46px "Montserrat", sans-serif;
-  color: #373c5f;
+  color: #005893;
   border-bottom: 1px solid #e6e6e6;
   padding-bottom: 33px;
 }
@@ -1768,7 +1778,7 @@ p {
 }
 .single-blog .blog-items .post-meta li a:hover {
   background: none;
-  color: #b49132;
+  color: #F4984E;
 }
 .single-blog .blog-items .post-meta li i {
   float: left;
@@ -1793,7 +1803,7 @@ p {
 }
 .single-blog .blog-items .post-meta li:nth-child(2) a:hover {
   background: none;
-  color: #b49132;
+  color: #F4984E;
 }
 .single-blog .blog-items .post-meta li:nth-child(3) {
   float: right;
@@ -1881,7 +1891,7 @@ p {
 }
 .single-blog .button:after {
   content: "post a comment";
-  color: #b49132;
+  color: #F4984E;
 }
 
 .tag {
@@ -1917,7 +1927,7 @@ p {
 }
 .case-study h2 {
   font: 400 42px/36px "Montserrat", sans-serif;
-  color: #373c5f;
+  color: #005893;
 }
 .case-study .text {
   font: 700 16px/45px "Raleway", sans-serif;
@@ -1929,7 +1939,7 @@ p {
   content: '';
   width: 40px;
   height: 2px;
-  background: #b49132;
+  background: #F4984E;
   position: absolute;
   bottom: -13px;
   left: 0;
@@ -1944,7 +1954,7 @@ p {
 }
 .case-study .media-info .media-body h4 {
   font: 400 18px/27px "Montserrat", sans-serif;
-  color: #373c5f;
+  color: #005893;
 }
 .case-study .media-info .media-body p {
   color: #464646;
@@ -2011,13 +2021,13 @@ p {
   padding-top: 28px;
 }
 .list h4 {
-  color: #373c5f;
+  color: #005893;
   font: 700 14px/25px "Raleway", sans-serif;
 }
 .list h4:before {
   content: "\f111";
   font: normal normal normal 7px FontAwesome;
-  color: #b49132;
+  color: #F4984E;
   display: inline-block;
   float: left;
   line-height: 25px;
@@ -2054,10 +2064,10 @@ p {
 }
 .services-bonds-area .bonds-info .industries-icon .media-body a {
   font: 400 18px/25px "Montserrat", sans-serif;
-  color: #373c5f;
+  color: #005893;
 }
 .services-bonds-area .bonds-info .industries-icon .media-body a:hover {
-  color: #b49132;
+  color: #F4984E;
 }
 .services-bonds-area .bonds-info .industries-icon .media + .media {
   margin-top: 30px;
@@ -2096,7 +2106,7 @@ p {
 .accoidion .panel-default .panel-heading a {
   display: block;
   font: 400 18px/26px "Montserrat", sans-serif;
-  color: #373c5f;
+  color: #005893;
   padding: 12px 20px;
   background: #f4f4f4;
 }
@@ -2104,7 +2114,7 @@ p {
   font-size: 20px;
   float: right;
   line-height: 26px;
-  color: #373c5f;
+  color: #005893;
 }
 .accoidion .panel-default .panel-heading a .fa-angle-down {
   display: block;
@@ -2193,7 +2203,7 @@ p {
 }
 .history h2 {
   font: 400 24px/30px "Montserrat", sans-serif;
-  color: #373c5f;
+  color: #005893;
   padding-bottom: 18px;
 }
 .history p {
@@ -2213,7 +2223,7 @@ p {
 }
 .problem-group-area .lists .nav li a {
   font: 700 14px/20px "Montserrat", sans-serif;
-  color: #373c5f;
+  color: #005893;
   padding: 0px;
   text-transform: capitalize;
   display: inline-block;
@@ -2226,12 +2236,12 @@ p {
   font-size: 8px;
   line-height: 21px;
   float: left;
-  color: #b49132;
+  color: #F4984E;
   padding-right: 20px;
 }
 .problem-group-area .lists .nav li a:hover {
   background: none;
-  color: #b49132;
+  color: #F4984E;
 }
 .problem-group-area .lists .nav li a:focus {
   background: none;
@@ -2239,7 +2249,7 @@ p {
 
 /*======gets-started-area csss====*/
 .gets-started-area {
-  background: #b49132;
+  background: #F4984E;
   padding: 80px 0px 70px;
 }
 .gets-started-area .text {
@@ -2270,7 +2280,7 @@ p {
   box-shadow: none;
 }
 .gets-started-area .get-button button:hover {
-  background: #373c5f;
+  background: #005893;
   color: #fff;
 }
 
@@ -2283,7 +2293,7 @@ p {
 }
 .leaders-area .content h2 {
   font: 400 24px/30px "Montserrat", sans-serif;
-  color: #373c5f;
+  color: #005893;
 }
 .leaders-area .content p {
   color: #464646;
@@ -2308,18 +2318,18 @@ p {
   width: 10px;
   height: 10px;
   border-radius: 50%;
-  background: #b49132;
+  background: #F4984E;
 }
 .leaders-area .leaders-slider .text {
   padding: 18px 0px;
 }
 .leaders-area .leaders-slider .text h2 {
   font: 700 18px/30px "Raleway", sans-serif;
-  color: #373c5f;
+  color: #005893;
   transition: all 300ms linear 0s;
 }
 .leaders-area .leaders-slider .text h2:hover {
-  color: #b49132;
+  color: #F4984E;
 }
 .leaders-area .leaders-slider .text p {
   font: 400 14px/30px "Raleway", sans-serif;
@@ -2338,7 +2348,7 @@ p {
 }
 .contact-area .contact-questions h2 {
   font: 400 24px/20px "Montserrat", sans-serif;
-  color: #373c5f;
+  color: #005893;
 }
 .contact-area .contact-questions p {
   font: 300 14px/25px "Raleway", sans-serif;
@@ -2387,7 +2397,7 @@ p {
 }
 .contact-area .contact-forms h2 {
   font: 400 24px/20px "Montserrat", sans-serif;
-  color: #373c5f;
+  color: #005893;
 }
 .contact-area .contact-forms p {
   font: 300 14px/25px "Raleway", sans-serif;
@@ -2419,13 +2429,13 @@ p {
   float: right;
   margin-top: 38px;
   transition: all 300ms linear 0s;
-  border: 2px solid #b49132;
+  border: 2px solid #F4984E;
 }
 .contact-area .contact-forms .contact-form .button:hover {
   transform: rotateX(0deg) translateY(0%);
-  border: 2px solid #b49132;
+  border: 2px solid #F4984E;
   background: none;
-  color: #373c5f;
+  color: #005893;
 }
 .contact-area .contact-forms #success, .contact-area .contact-forms #error {
   position: absolute;
@@ -2467,7 +2477,7 @@ p {
 }
 .contact-area .contact-info h2 {
   font: 400 24px/20px "Montserrat", sans-serif;
-  color: #373c5f;
+  color: #4482A7;
   margin-bottom: 52px;
 }
 .contact-area .contact-info ul li .media .media-left {
@@ -2475,7 +2485,7 @@ p {
   padding-right: 16px;
 }
 .contact-area .contact-info ul li .media .media-left i {
-  color: #b49132;
+  color: #F4984E;
   font-size: 24px;
 }
 .contact-area .contact-info ul li .media .media-body {
@@ -2494,12 +2504,12 @@ p {
 /*====================================================*/
 /*=============footer area=================*/
 .footer-area {
-  background: #131313;
+  background: #fff;
 }
 .footer-area .widget .tittle {
   font-size: 18px;
   line-height: 22px;
-  color: #fff;
+  color: #4482A7;
   text-transform: none;
   margin-bottom: 36px;
 }
@@ -2511,7 +2521,7 @@ p {
 }
 
 .about-widget p {
-  color: #fff;
+  color: darkgray;
   padding-top: 20px;
 }
 
@@ -2559,7 +2569,7 @@ p {
   padding-top: 5px;
 }
 .recent-widget a i {
-  color: #b49132;
+  color: #F4984E;
   float: left;
   padding-right: 10px;
   line-height: 28px;
@@ -2567,22 +2577,22 @@ p {
 
 .contact-widget .search-form .form-control {
   font: 300 14px/22px "Raleway", sans-serif;
-  border: 0px;
+  border: 1px solid #F4984E;
   border-radius: 0px;
   height: 50px;
   padding: 0px 0px 0px 20px;
   background: #fff;
   box-shadow: none;
-  color: #d3d3d3;
+  color: #F4984E;
 }
 .contact-widget .search-form .form-control.placeholder {
-  color: #d3d3d3;
+  color: #F4984E;
 }
 .contact-widget .search-form .form-control:-moz-placeholder {
-  color: #d3d3d3;
+  color: #F4984E;
 }
 .contact-widget .search-form .form-control::-webkit-input-placeholder {
-  color: #d3d3d3;
+  color: #F4984E;
 }
 .contact-widget .search-form .form-control + .input-group-addon {
   padding: 0;
@@ -2594,7 +2604,7 @@ p {
   font-size: 24px;
   line-height: 46px;
   padding: 4px 13px 0px 13px;
-  background: #b49132;
+  background: #F4984E;
   color: #fff;
   position: relative;
 }
@@ -2624,7 +2634,7 @@ p {
   text-align: center;
   border-radius: 50%;
   display: inline-block;
-  background: #212121;
+  background: #4482A7;
   position: relative;
   transition: all 300ms linear 0s;
 }
@@ -2632,7 +2642,7 @@ p {
   padding: 0;
   font-size: 14px;
   line-height: 40px;
-  color: #7c7c7c;
+  color: white;
 }
 .contact-widget .social-icon li a .hover {
   position: absolute;
@@ -2649,7 +2659,7 @@ p {
   margin-left: 10px;
 }
 .contact-widget .social-icon li:hover {
-  background: #b49132;
+  background: #F4984E;
 }
 .contact-widget .social-icon li:hover a {
   color: #fff;

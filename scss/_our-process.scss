@@ -1,7 +1,7 @@
 /*==================our process area============*/
 .process-area{
     padding: 98px 0px 50px 0px;
-    background: #f4f4f4;
+    background: $faded-blue;
     .p-timeline{
         max-width: 810px;
         margin: 90px auto 0px auto;
@@ -38,7 +38,7 @@
                 content: "";
                 position: absolute;
                 border-radius: 50%;
-                border: 1px solid $brown;
+                border: 1px solid $orange;
                 right: 69px;
                 top: 17%;
             }
@@ -61,14 +61,14 @@
                     span{
                         font: 400 56px $montserrat;
                         letter-spacing: 0.50px;
-                        color: $brown;
+                        color: $orange;
                     }
                 }
                 .media-body{
                     vertical-align: middle;
                     h2{
                         font: 400 18px/32px $montserrat;
-                        color: $light-blue;
+                        color: $orange;
                         display: inline-block;
                     }
                 }
@@ -101,7 +101,7 @@
                     content: "";
                     position: absolute;
                     border-radius: 50%;
-                    border: 1px solid $brown;
+                    border: 1px solid $orange;
                     left: 69px;
                     right: auto;
                     top: 16%;

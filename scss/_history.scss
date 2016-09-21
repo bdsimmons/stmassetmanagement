@@ -39,7 +39,7 @@
     text-align: center;
     h2{ 
         font: 400 24px/30px $montserrat;
-        color: $light-blue;
+        color: $faded-blue;
         padding-bottom: 18px;
     }
     p{
@@ -63,7 +63,7 @@
             li{
                 a{
                     font: 700 14px/20px $montserrat;
-                    color: $light-blue;
+                    color: $faded-blue;
                     padding: 0px;
                     text-transform: capitalize;
                     display: inline-block;
@@ -75,12 +75,12 @@
                         font-size: 8px;
                         line-height: 21px;
                         float: left;
-                        color: $brown;
+                        color: $orange;
                         padding-right: 20px;
                     }
                     &:hover{
                         background: none;
-                        color: $brown;
+                        color: $orange;
                     }
                     &:focus{
                         background: none;
@@ -93,7 +93,7 @@
 
 /*======gets-started-area csss====*/
 .gets-started-area{
-    background: $brown;
+    background: $orange;
     padding: 80px 0px 70px;
     .text{
         padding-top: 16px;
@@ -105,7 +105,7 @@
     .get-button{
         button{
             font: 400 16px/16px $montserrat;
-            color: #464646;
+            color: faded-blue;
             background: #fff;
             border: 0px;
             border-radius: 0px;
@@ -123,7 +123,7 @@
                 box-shadow: none;
             }
             &:hover{
-                background: $light-blue;
+                background: $faded-blue;
                 color: #fff;
             }
         }
@@ -137,7 +137,7 @@
         padding-right: 98px;
         h2{
             font: 400 24px/30px $montserrat;
-            color: $light-blue;
+            color: $faded-blue;
         }
         p{
             color: #464646;
@@ -161,7 +161,7 @@
                         width: 10px;
                         height: 10px;
                         border-radius: 50%;
-                        background: $brown;
+                        background: $orange;
                     }
                 }
             }
@@ -170,10 +170,10 @@
             padding: 18px 0px;
             h2{
                 font: 700 18px/30px $raleway;
-                color: $light-blue;
+                color: $faded-blue;
                 @include transition;
                 &:hover{
-                    color: $brown;
+                    color: $orange;
                 }
             }
             p{

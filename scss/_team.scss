@@ -43,7 +43,7 @@
                         color: #fff;
                         @include transition;
                         &:hover{
-                            color: $brown;
+                            color: $orange;
                         }
                     }
                     & +li{
@@ -56,10 +56,10 @@
                 padding-top: 20px;
                 h4{
                     font: 700 18px/30px $raleway;
-                    color: $light-blue;
+                    color: $faded-blue;
                     @include transition;
                     &:hover{
-                        color: $brown;
+                        color: $orange;
                     }
                 }
                 p{
@@ -88,12 +88,12 @@
                     width: 8px;
                     height: 8px;
                     border-radius: 50%;
-                    border: 1px solid $brown;
+                    border: 1px solid $orange;
                     & + .owl-dot{
                         margin-left: 10px;
                     }
                     &.active{
-                        background: $brown;
+                        background: $orange;
                         width: 10px;
                         height: 10px;
                     }

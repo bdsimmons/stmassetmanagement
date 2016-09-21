@@ -1,11 +1,11 @@
 /*=============footer area=================*/
 .footer-area{
-    background: #131313;
+    background: #fff;
     .widget{
         .tittle{
             font-size: 18px;
             line-height: 22px;
-            color: #fff;
+            color: $faded-blue;
             text-transform: none;
             margin-bottom: 36px;
             &:after{
@@ -19,7 +19,7 @@
 }
 .about-widget{
     p{
-        color: #fff;
+        color: darkgray;
         padding-top: 20px;
     }
 }
@@ -32,7 +32,7 @@
             a{
                 padding: 0px; 
                 font: 300 14px $raleway;
-                color: $gray;
+                color: darkgray;
                 &:hover{
                     background: none;
                 }
@@ -62,7 +62,7 @@
     }
     p{
         font: 700 14px/25px $raleway;
-        color: $gray;
+        color: darkgray;
     }
     .p-t{
         padding-top: 20px;
@@ -73,7 +73,7 @@
         display: inline-block;
         padding-top: 5px;
         i{
-            color: $brown;
+            color: $orange;
             float: left;
             padding-right: 10px;
             line-height: 28px;
@@ -90,9 +90,9 @@
             padding: 0px 0px 0px 20px;
             background: #fff;
             box-shadow: none;
-            color: #d3d3d3;
+            color: $orange;
             @include placeholder{
-                color: #d3d3d3;
+                color: $orange;
             }
             & +.input-group-addon{
                 padding: 0;
@@ -103,7 +103,7 @@
                     font-size: 24px;
                     line-height: 46px;
                     padding:  4px 13px 0px 13px;
-                    background: $brown;
+                    background: $orange;
                     color: #fff;
                     position: relative;
                     .hover{
@@ -137,14 +137,14 @@
             text-align: center;
             border-radius: 50%;
             display: inline-block;
-            background: #212121;
+            background: $faded-blue;
             position: relative;
             @include transition;
             a{
                 padding: 0;
                 font-size: 14px;
                 line-height: 40px;
-                color:#7c7c7c;
+                color: white;
                 .hover{
                     position: absolute;
                     visibility: hidden;
@@ -161,7 +161,7 @@
                 margin-left: 10px;
             }
             &:hover{
-                background: $brown;
+                background: $orange;
                 a{
                     color: #fff;
                 }
@@ -192,7 +192,7 @@
                 a{
                     padding: 0;
                     font: 300 14px/28px $raleway;
-                    color: $gray;
+                    color: darkgray;
                     text-transform: capitalize;
                     &:hover{
                         background: none;

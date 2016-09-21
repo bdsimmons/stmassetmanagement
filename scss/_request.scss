@@ -17,7 +17,7 @@
         width: 150px;
         &:after{
             content: "submit";
-            color: $brown;
+            color: $orange;
                 
         }
     }
@@ -119,8 +119,8 @@
         height: 100%;
         display: block;
         position: absolute;
-        background: #000;
-        opacity: 0.80;
+        background: #005893;
+        opacity: 0.70;
         z-index: -1;
         top: 0;
         bottom: 0;
@@ -146,7 +146,7 @@
         }
         h2{
             font: 400 24px/25px $montserrat;
-            color: $brown;
+            color: $orange;
             padding-bottom: 4px;
         }
         .media{
@@ -176,12 +176,12 @@
                 width: 8px;
                 height: 8px;
                 border-radius: 50%;
-                border: 1px solid $brown;
+                border: 1px solid $orange;
                 & + .owl-dot{
                     margin-left: 12px;
                 }
                 &.active{
-                    background: $brown;
+                    background: $orange;
                     width: 10px;
                     height: 10px;
                 }

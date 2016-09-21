@@ -11,7 +11,7 @@
     overflow: hidden;
     h2{
         font: 400 42px/36px $montserrat;
-        color: $light-blue;
+        color: $faded-blue;
     }
     .text{
         font: 700 16px/45px $raleway;
@@ -22,7 +22,7 @@
             content: '';
             width: 40px;
             height: 2px;
-            background: $brown;
+            background: $orange;
             position: absolute;
             bottom: -13px;
             left: 0;
@@ -38,7 +38,7 @@
         .media-body{
             h4{
                 font: 400 18px/27px $montserrat;
-                color: $light-blue;
+                color: $faded-blue;
             }
             p{
                 color: #464646;
@@ -116,12 +116,12 @@
     padding-left: 25px;
     padding-top: 28px;
     h4{
-        color: $light-blue;
+        color: $faded-blue;
         font: 700 14px/25px $raleway;
         &:before{
             content: "\f111";
             font: normal normal normal 7px FontAwesome;
-            color: $brown;
+            color: $orange;
             display: inline-block;
             float: left;
             line-height: 25px;
@@ -160,9 +160,9 @@
             .media-body{
                 a{
                     font: 400 18px/25px $montserrat;
-                    color: $light-blue;
+                    color: $faded-blue;
                     &:hover{
-                        color: $brown;
+                        color: $orange;
                     }
                 }
             }
@@ -176,7 +176,7 @@
 }
 .common{
     font: 400 24px/20px $montserrat;
-    color: #000;
+    color: $orange;
     margin-bottom: 60px;
     text-transform: capitalize;
 }
@@ -206,14 +206,14 @@
             a{
                 display: block;
                 font: 400 18px/26px $montserrat;
-                color: $light-blue;
+                color: $faded-blue;
                 padding: 12px 20px;
                 background: #f4f4f4;
                 i{
                     font-size: 20px;
                     float: right;
                     line-height: 26px;
-                    color: $light-blue;
+                    color: $faded-blue;
                 }
                 .fa-angle-down{
                     display: block;

@@ -7,7 +7,7 @@
     overflow: hidden;
     h2{
         font: 400 42px/46px $montserrat;
-        color: $light-blue;
+        color: $faded-blue;
         border-bottom: 1px solid #e6e6e6;
         padding-bottom: 33px;
     }
@@ -24,7 +24,7 @@
                     color: $l-gray;
                     &:hover{
                         background: none;
-                        color: $brown;
+                        color: $orange;
                     }
                 }
                 i{
@@ -48,7 +48,7 @@
                         color: #464646;
                         &:hover{
                             background: none;
-                            color: $brown;
+                            color: $orange;
                         }
                     }
                 }
@@ -119,7 +119,7 @@
                 width: 80px;
                 height: 80px;
                 border-radius: 50%;
-                background: #000;
+                background: $faded-blue;
             }
         }
         .media-middle{
@@ -143,13 +143,13 @@
     }
     .leave-reply-title{
         font: 400 24px/20px $montserrat;
-        color: #000;
+        color: $faded-blue;
         padding:100px 0px 20px;
     }
     .button{
         &:after{
             content: "post a comment";
-            color: $brown;
+            color: $orange;
         }
     }
 }

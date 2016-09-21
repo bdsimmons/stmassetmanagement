@@ -3,7 +3,7 @@
 
 body{
     font: 400 14px/25px $raleway;
-    color: $gray;
+    color: darkgray;
 }
 
 a,.btn,button{
@@ -27,7 +27,7 @@ section, header, footer{
 }
 p{
     font: 300 14px/25px $raleway;
-    color: $gray;
+    color: darkgray;
     margin-bottom: 0;
 }
 
@@ -36,13 +36,13 @@ p{
     h2{
         font: 400 41px/70px $montserrat;
         letter-spacing: 0.50px;
-        color: $light-blue;
+        color: $faded-blue;
         text-transform: uppercase;
         &:after{
             content: '';
             width: 40px;
             height: 2px;
-            background: $brown;
+            background: $orange;
             display: block;
             left: 50%;
             transform: translateX(-50%);
@@ -60,7 +60,7 @@ p{
 .tittle{
     font: 400 41px/41px $montserrat;
     letter-spacing: 0.50px;
-    color: $light-blue;
+    color: $faded-blue;
     text-transform: uppercase;
     margin-bottom: 80px;
     &:after{
@@ -69,7 +69,7 @@ p{
         content: '';
         width: 40px;
         height: 2px;
-        background: $brown;
+        background: $orange;
         position: relative;
         display: block;
     }
@@ -85,7 +85,7 @@ p{
     padding: 90px 0px;
     &:before{
         content: "";
-        background: rgba(180, 145, 50, .9);
+        background: #005893;
         position: absolute;
         left: 0;
         top: 0px;

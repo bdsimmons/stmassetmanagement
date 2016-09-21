@@ -1,7 +1,7 @@
 /*==================latest news area css=========================*/
 
 .latest-news-area{
-    background: #f1f1f1;
+    background: white;
     padding: 120px 0px 113px 0px;
 }
 .l-news-left{
@@ -18,7 +18,7 @@
                 vertical-align: middle;
                 h3{
                     font: 400 18px/27px $montserrat;
-                    color: $light-blue;
+                    color: $faded-blue;
                     
                 }
                 .post-meta{
@@ -28,7 +28,7 @@
                         a{
                             padding: 0;
                             font: 300 12px/28px $raleway;
-                            color: $l-gray;
+                            color: #9d9d9d;
                             display: inline-block;
                             @include transition;
                             i{
@@ -40,9 +40,9 @@
                             }
                             &:hover{
                                 background: none;
-                                color: $brown;
+                                color: $orange;
                                 i{
-                                   color: $brown; 
+                                   color: $orange; 
                                 }
                             }
                         }
@@ -73,7 +73,7 @@
 .l-news-right{
     padding-left: 0;
     .l-slider{
-        background: #fff;
+        background: #F1F1F1;
         text-align: center;
         padding: 100px 0px 57px 0px;
         p{
@@ -84,7 +84,7 @@
                 content: '';
                 width: 40px;
                 height: 2px;
-                background: $brown;
+                background: $orange;
                 display: block;
                 left: 50%;
                 transform: translateX(-50%);
@@ -103,7 +103,7 @@
         h4{
             padding-top: 23px;
             font: 400 18px/20px $montserrat;
-            color: $light-blue;
+            color: $faded-blue;
             span{
                font: 300 16px/20px $raleway;
                 color: $l-gray;
@@ -118,12 +118,12 @@
                     width: 8px;
                     height: 8px;
                     border-radius: 50%;
-                    border: 1px solid $brown;
+                    border: 1px solid $orange;
                     & + .owl-dot{
                         margin-left: 12px;
                     }
                     &.active{
-                        background: $brown;
+                        background: $orange;
                         width: 10px;
                         height: 10px;
                     }
@@ -141,8 +141,8 @@
     background: url('../image/email-bg.jpg');
     background-size: cover;
     position: relative;
-    background-color: gray;
-    background-blend-mode: luminosity;
+    background-color: $faded-blue;
+    background-blend-mode: normal;
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -150,8 +150,8 @@
     z-index: 1;
     &:after{
         content: '';
-        background: #000;
-        opacity: 0.60;
+        background: $faded-blue;
+//        opacity: 0.60;
         position: absolute;
         top: 0;
         left: 0;
@@ -205,7 +205,7 @@
                         border: 0px;
                         padding: 10px 43px;
                         text-transform: uppercase;
-                        background: $brown;
+                        background: $orange;
                         filter: grayscale(0) !important;
                         -webkit-filter: grayscale(0) !important;
                     }

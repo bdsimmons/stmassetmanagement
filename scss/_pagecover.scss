@@ -1,6 +1,6 @@
 /*====================breadcrumb area css================*/
 .header-breadcrumb{
-    background: #adadad;
+    background: $faded-blue;
     padding: 60px 0px 72px;
     z-index: 0;
     overflow: hidden;
@@ -26,7 +26,7 @@
         color: #fff;
         a{
             font-weight: 500;
-            color: #fff;
+            color: $orange;
         }
         & + li{
             &:before{
@@ -37,7 +37,7 @@
             }
         }
         &.active{
-           color: #fff; 
+           color: $orange; 
         }
     }
 }
@@ -51,15 +51,15 @@
     }
     li{
         a{
-            color: #000;
+            color: $orange;
         }
         & + li{
             &:before{
-                color: $brown;
+                color: $faded-blue;
             }
         }
         &.active{
-           color: #000; 
+           color: $orange; 
         }
     }
 }

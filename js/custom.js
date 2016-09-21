@@ -106,12 +106,12 @@
     
     var nav_offset_top = $('#main_navbar').offset().top;
     
-//        $('#main_navbar').affix({
-//            offset: {
-//                top: nav_offset_top,
-//               
-//            }
-//        });
+        $('#main_navbar').affix({
+            offset: {
+                top: nav_offset_top,
+               
+            }
+        });
     
     /*----------------------------------------------------*/
     /*  Google Map

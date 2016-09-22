@@ -257,7 +257,7 @@ $dotSize: 8px;
 /* ============= affix-header-top==============*/
 
 .header-bottom{
-    &.affix $.affix-top{
+    &.affix, &.affix-top{
         width: 100%;
         top: 0;
         .navbar-default{

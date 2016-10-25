@@ -89,6 +89,8 @@ p {
       transform: translateX(-50%);
       position: relative;
       margin-top: 8px; }
+    .section-header h2.white {
+      color: white; }
   .section-header p {
     max-width: 595px;
     margin: 0 auto;
@@ -112,13 +114,12 @@ p {
     display: block; }
 
 .partner-logo-area {
-  background: url(../image/client_bg.jpg) no-repeat scroll 0 0;
   background-size: cover;
   position: relative;
   padding: 90px 0px; }
   .partner-logo-area:before {
     content: "";
-    background: #005893;
+    background: #4D8AB3;
     opacity: .7;
     position: absolute;
     left: 0;
@@ -225,14 +226,14 @@ p {
 /*====================header css=======================*/
 /*==================header-top================*/
 .header-top {
-  background: white; }
+  background: #4D8AB3; }
   .header-top .top-nav {
     display: inline-block; }
     .header-top .top-nav li {
       display: inline-block; }
       .header-top .top-nav li a {
         font: 400 14px/50px "Raleway", sans-serif;
-        color: #F4984E;
+        color: white;
         padding: 0; }
         .header-top .top-nav li a i {
           font-size: 16px;
@@ -260,13 +261,11 @@ p {
   background: #fff;
   border-radius: 0px; }
   .header-bottom .navbar-default .navbar-brand {
-    /*          display:block;*/
-    /*          padding: 48px 0px 0px 15px;*/
     padding: 0px 0px 0px 15px;
     line-height: 130px;
     max-width: 100px;
     max-height: 100px;
-    /*            height: auto;*/ }
+    height: auto; }
   .header-bottom .navbar-default .navbar-nav {
     padding-top: 60px;
     padding-bottom: 46px; }
@@ -350,8 +349,6 @@ p {
 .header-bottom.affix, .header-bottom.affix-top {
   width: 100%;
   top: 0; }
-  .header-bottom.affix .navbar-default .navbar-brand, .header-bottom.affix-top .navbar-default .navbar-brand {
-    padding-top: 15px; }
   .header-bottom.affix .navbar-default .navbar-nav, .header-bottom.affix-top .navbar-default .navbar-nav {
     padding-top: 26px;
     padding-bottom: 20px; }
@@ -386,19 +383,7 @@ p {
       content: "our service";
       color: #fff; }
 .slider-area .owl-controls .owl-dots {
-  text-align: center;
-  position: absolute;
-  top: 50%;
-  right: 30px;
-  transform: translateY(-50%); }
-  .slider-area .owl-controls .owl-dots .owl-dot {
-    display: block;
-    width: 2px;
-    height: 36px;
-    background: #bebfc0;
-    margin-bottom: 10px; }
-    .slider-area .owl-controls .owl-dots .owl-dot.active {
-      background: #fff; }
+  display: none; }
 
 /*====================================================*/
 /*====================================================*/
@@ -450,8 +435,7 @@ p {
 
 .service-group {
   padding: 50px 0px 40px 0px;
-  background: #005893;
-  opacity: 0.7;
+  background: white;
   position: relative;
   z-index: 1;
   margin-top: -70px; }
@@ -474,7 +458,7 @@ p {
       color: #F4984E; }
     .service-group-1 .content p {
       letter-spacing: 0.25px;
-      color: #F1F1F1;
+      color: #999999;
       padding: 22px 50px 17px 50px; }
 
 .box-i {
@@ -534,8 +518,6 @@ p {
       color: #7d7d7d; }
   .services-promo .col-md-3:nth-child(3) .s-info-text {
     right: 41px; }
-  .services-promo .col-md-3:nth-child(4) .s-info-text {
-    right: 23px; }
 
 /*====================================================*/
 /*====================================================*/
@@ -581,7 +563,7 @@ p {
     bottom: 0;
     left: 0;
     right: 0;
-    background: #005893;
+    background: #4D8AB3;
     opacity: 0.7;
     z-index: -1; }
   .call-action-baner-area .baner-content {
@@ -608,14 +590,6 @@ p {
 .why-choose-us-area {
   padding: 100px 0px 112px 0px;
   position: relative; }
-  .why-choose-us-area:after {
-    content: '';
-    background: url(../image/why-us-1.png) no-repeat scroll center bottom;
-    position: absolute;
-    display: block;
-    bottom: 0;
-    width: 100%;
-    height: 100%; }
   .why-choose-us-area .section-header {
     margin-bottom: 50px; }
   .why-choose-us-area .service-group-1 {
@@ -813,20 +787,7 @@ p {
         transform: scale3d(1, 1, 1);
         opacity: 1; }
     .team-area .team .owl-controls .owl-dots {
-      text-align: center;
-      padding-top: 60px; }
-      .team-area .team .owl-controls .owl-dots .owl-dot {
-        display: inline-block;
-        width: 8px;
-        height: 8px;
-        border-radius: 50%;
-        border: 1px solid #F4984E; }
-        .team-area .team .owl-controls .owl-dots .owl-dot + .owl-dot {
-          margin-left: 10px; }
-        .team-area .team .owl-controls .owl-dots .owl-dot.active {
-          background: #F4984E;
-          width: 10px;
-          height: 10px; }
+      display: none; }
 
 /*====================================================*/
 /*====================================================*/
@@ -1103,7 +1064,7 @@ p {
     height: 100%;
     display: block;
     position: absolute;
-    background: #005893;
+    background: #4D8AB3;
     opacity: 0.70;
     z-index: -1;
     top: 0;
@@ -2015,11 +1976,11 @@ p {
 /*====================================================*/
 /*=============footer area=================*/
 .footer-area {
-  background: #fff; }
+  background: #4482A7; }
   .footer-area .widget .tittle {
     font-size: 18px;
     line-height: 22px;
-    color: #4482A7;
+    color: white;
     text-transform: none;
     margin-bottom: 36px; }
     .footer-area .widget .tittle:after {
@@ -2028,7 +1989,7 @@ p {
     padding: 60px 0px 53px 0px; }
 
 .about-widget p {
-  color: darkgray;
+  color: white;
   padding-top: 20px; }
 
 .explor-widget .nav {
@@ -2039,7 +2000,7 @@ p {
     .explor-widget .nav li a {
       padding: 0px;
       font: 300 14px "Raleway", sans-serif;
-      color: darkgray; }
+      color: white; }
       .explor-widget .nav li a:hover {
         background: none; }
     .explor-widget .nav li:last-child {
@@ -2055,7 +2016,7 @@ p {
   margin-bottom: 31px; }
 .recent-widget p {
   font: 700 14px/25px "Raleway", sans-serif;
-  color: darkgray; }
+  color: white; }
 .recent-widget .p-t {
   padding-top: 20px; }
 .recent-widget a {

@@ -4,7 +4,7 @@ $animationLength: 1.5s;
 $animationRadius: 12px;
 $dotSize: 8px;
 
-.sampleContainer { 
+.sampleContainer {
     position: fixed;
 	top: 0;
 	left: 0;
@@ -14,10 +14,10 @@ $dotSize: 8px;
 	z-index: 99999999;
 }
 
-.loader { 
-    position: relative; 
+.loader {
+    position: relative;
     width: $animationRadius * 3 + $dotSize;
-    height: $dotSize; 
+    height: $dotSize;
     margin: $animationRadius auto;
     position: absolute;
     left: 50%;
@@ -37,7 +37,7 @@ $dotSize: 8px;
 .dot_1 {
     animation: animateDot1 $animationLength linear infinite;
     left: $animationRadius;
-    background: $orange; 
+    background: $orange;
 }
 
 .dot_2 {
@@ -92,14 +92,14 @@ $dotSize: 8px;
 
 /*==================header-top================*/
 .header-top{
-    background: white;
+    background: $new-blue;
     .top-nav{
         display:inline-block;
         li{
             display: inline-block;
             a{
                 font: 400 14px/50px $raleway;
-                color: $orange;
+                color: white;
                 padding: 0;
                 i{
                     font-size: 16px;
@@ -137,13 +137,11 @@ $dotSize: 8px;
         background: #fff;
         border-radius: 0px;
         .navbar-brand{
-/*          display:block;*/
-/*          padding: 48px 0px 0px 15px;*/  
             padding: 0px 0px 0px 15px;
             line-height: 130px;
             max-width: 100px;
-            max-height: 100px;           
-/*            height: auto;*/
+            max-height: 100px;
+            height: auto;
         }
         .navbar-nav{
             padding-top: 60px;
@@ -261,9 +259,6 @@ $dotSize: 8px;
         width: 100%;
         top: 0;
         .navbar-default{
-            .navbar-brand {
-                padding-top: 15px;
-            }
             .navbar-nav{
                 padding-top: 26px;
                 padding-bottom: 20px;

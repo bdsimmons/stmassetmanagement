@@ -4,26 +4,26 @@
     function sliderCarousel(){
         if( $('.slider-carousel').length ){
             $('.slider-carousel').owlCarousel({
-                loop:true,
-                margin:0,
-                autoplay: true,
-                nav: false,
-                items: 1
-            })
+                navigation : true, // Show next and prev buttons
+      singleItem:true,
+      items: 1,
+      pagination: false
+            });
         }
-    }    
+    }
     sliderCarousel();
-    
+
     //team area carousel====*/
     function teamCarousel(){
         if( $('.team').length ){
             $('.team').owlCarousel({
                 loop:true,
                 margin:30,
-                autoplay: true,
+                autoplay: false,
                 nav: false,
                 items: 3,
                 responsiveClass:true,
+                pagination: false,
                 responsive:{
                     0:{
                         items:1,
@@ -37,9 +37,9 @@
                 }
             })
         }
-    }    
+    }
     teamCarousel();
-    
+
     /*======latest area carousel====*/
     function latestCarousel(){
         if( $('.l-slider').length ){
@@ -51,9 +51,9 @@
                 items: 1
             })
         }
-    }    
+    }
     latestCarousel();
-    
+
     /*======location area carousel====*/
     function locationSlider(){
         if( $('.location-slider').length ){
@@ -83,9 +83,9 @@
                 }
             })
         }
-    }    
+    }
     locationSlider();
-    
+
     /*======location area carousel====*/
     function leadersSlider(){
         if( $('.leaders-slider').length ){
@@ -98,24 +98,24 @@
                 responsiveClass:true,
             })
         }
-    }    
+    }
     leadersSlider();
-    
+
 
       // stick menu function
-    
+
     var nav_offset_top = $('#main_navbar').offset().top;
-    
+
         $('#main_navbar').affix({
             offset: {
                 top: nav_offset_top,
-               
+
             }
         });
-    
+
     /*----------------------------------------------------*/
     /*  Google Map
-    /*----------------------------------------------------*/        
+    /*----------------------------------------------------*/
         function mapBox () {
             if ( $( '#mapBox' ).length ){
                 var $lat = $('#mapBox').data('lat');
@@ -133,22 +133,22 @@
                     disableDoubleClickZoom: true,
                     mapTypeControl: true,
                     zoom: $zoom
-                }) 
+                })
             }
         }
         mapBox ();
       // stick menu function
-    
+
     new WOW().init();
-    
-    
+
+
     // preloader js
     $(window).load(function() { // makes sure the whole site is loaded
 		$('.loader').fadeOut(); // will first fade out the loading animation
 		$('.sampleContainer').delay(150).fadeOut('slow'); // will fade out the white DIV that covers the website.
 		$('body').delay(150).css({'overflow':'visible'})
     })
-    
-    
+
+
 })(jQuery)
 

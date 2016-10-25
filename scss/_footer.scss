@@ -1,11 +1,11 @@
 /*=============footer area=================*/
 .footer-area{
-    background: #fff;
+    background: $faded-blue;
     .widget{
         .tittle{
             font-size: 18px;
             line-height: 22px;
-            color: $faded-blue;
+            color: white;
             text-transform: none;
             margin-bottom: 36px;
             &:after{
@@ -19,7 +19,7 @@
 }
 .about-widget{
     p{
-        color: darkgray;
+        color: white;
         padding-top: 20px;
     }
 }
@@ -30,15 +30,15 @@
         li{
             padding-bottom: 16px;
             a{
-                padding: 0px; 
+                padding: 0px;
                 font: 300 14px $raleway;
-                color: darkgray;
+                color: white;
                 &:hover{
                     background: none;
                 }
             }
             & + li{
-                
+
             }
             &:last-child{
                 padding-bottom: 0;
@@ -58,11 +58,11 @@
     &.widget{
        .tittle{
             margin-bottom: 31px;
-        } 
+        }
     }
     p{
         font: 700 14px/25px $raleway;
-        color: darkgray;
+        color: white;
     }
     .p-t{
         padding-top: 20px;

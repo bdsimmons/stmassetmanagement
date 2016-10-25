@@ -24,13 +24,13 @@
                 color: #464646;
                 padding-top: 65px;
                 padding-bottom: 53px;
-            } 
+            }
         }
         .button{
             &:after{
                 color: $orange;
                 content: "Read More";
-            }   
+            }
         }
     }
 }
@@ -52,7 +52,7 @@
         bottom: 0;
         left: 0;
         right: 0;
-        background: #005893;
+        background: $new-blue;
         opacity: 0.7;
         z-index: -1;
     }

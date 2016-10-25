@@ -81,23 +81,24 @@
         }
         .owl-controls{
             .owl-dots{
-                text-align: center;
-                padding-top: 60px;
-                .owl-dot{
-                    display: inline-block;
-                    width: 8px;
-                    height: 8px;
-                    border-radius: 50%;
-                    border: 1px solid $orange;
-                    & + .owl-dot{
-                        margin-left: 10px;
-                    }
-                    &.active{
-                        background: $orange;
-                        width: 10px;
-                        height: 10px;
-                    }
-                }
+                display: none;
+                // text-align: center;
+                // padding-top: 60px;
+                // .owl-dot{
+                //     display: inline-block;
+                //     width: 8px;
+                //     height: 8px;
+                //     border-radius: 50%;
+                //     border: 1px solid $orange;
+                //     & + .owl-dot{
+                //         margin-left: 10px;
+                //     }
+                //     &.active{
+                //         background: $orange;
+                //         width: 10px;
+                //         height: 10px;
+                //     }
+                // }
             }
         }
     }

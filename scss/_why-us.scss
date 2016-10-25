@@ -2,16 +2,16 @@
 .why-choose-us-area{
     padding: 100px 0px 112px 0px;
     position: relative;
-    
-    &:after{
-        content: '';
-        background: url(../image/why-us-1.png) no-repeat scroll center bottom;
-        position: absolute;
-        display: block;
-        bottom: 0;
-        width: 100%;
-        height:100%;
-    }
+
+    // &:after{
+    //     content: '';
+    //     background: url(../image/why-us-1.png) no-repeat scroll center bottom;
+    //     position: absolute;
+    //     display: block;
+    //     bottom: 0;
+    //     width: 100%;
+    //     height:100%;
+    // }
     .section-header{
         margin-bottom: 50px;
     }

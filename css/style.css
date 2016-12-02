@@ -971,6 +971,10 @@ p {
 /*====================================================*/
 /*====================================================*/
 /*===================request-area===================*/
+#contact div.row {
+  padding-top: 60px;
+  border-top: 1px solid #303030; }
+
 .request-area {
   padding: 115px 0px 120px 0px; }
 
@@ -2027,11 +2031,11 @@ p {
   padding-top: 20px; }
 .recent-widget a {
   font: 300 12px/28px "Raleway", sans-serif;
-  color: #7c7c7c;
+  color: white;
   display: inline-block;
   padding-top: 5px; }
   .recent-widget a i {
-    color: #F4984E;
+    color: white;
     float: left;
     padding-right: 10px;
     line-height: 28px; }

@@ -24,13 +24,18 @@
     .content{
         padding-top: 22px;
         h2{
+            text-align: center;
             font:400 24px/20px $montserrat;
             color: $orange;
         }
         p{
+            text-align: center;
             letter-spacing: 0.25px;
             color: #999999;
             padding: 22px 50px 17px 50px;
+        }
+        & .box-i {
+            display: inline-block;
         }
     }
 }
@@ -44,6 +49,9 @@
     border-radius: 1px;
     text-align: center;
     margin: 0 auto;
+    img {
+        filter: saturate(3);  
+    }
 }
 .read-button{
     font: 100 14px/24px $catamaran;

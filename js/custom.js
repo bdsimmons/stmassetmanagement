@@ -17,11 +17,11 @@
     function teamCarousel(){
         if( $('.team').length ){
             $('.team').owlCarousel({
-                loop:true,
+                loop:false,
                 margin:30,
-                autoplay: false,
+                autoplay: true,
                 nav: false,
-                items: 3,
+                items: 2,
                 responsiveClass:true,
                 pagination: false,
                 responsive:{
@@ -30,9 +30,6 @@
                     },
                     650:{
                         items:2,
-                    },
-                    1000:{
-                        items:3,
                     }
                 }
             })

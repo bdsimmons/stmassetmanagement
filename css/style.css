@@ -454,12 +454,16 @@ p {
   .service-group-1 .content {
     padding-top: 22px; }
     .service-group-1 .content h2 {
+      text-align: center;
       font: 400 24px/20px "Montserrat", sans-serif;
       color: #F4984E; }
     .service-group-1 .content p {
+      text-align: center;
       letter-spacing: 0.25px;
       color: #999999;
       padding: 22px 50px 17px 50px; }
+    .service-group-1 .content .box-i {
+      display: inline-block; }
 
 .box-i {
   width: 60px;
@@ -471,6 +475,8 @@ p {
   border-radius: 1px;
   text-align: center;
   margin: 0 auto; }
+  .box-i img {
+    filter: saturate(3); }
 
 .read-button {
   font: 100 14px/24px "Catamaran", sans-serif;

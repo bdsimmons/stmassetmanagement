@@ -17,7 +17,7 @@
     function teamCarousel(){
         if( $('.team').length ){
             $('.team').owlCarousel({
-                loop:false,
+                loop:true,
                 margin:30,
                 autoplay: true,
                 nav: false,

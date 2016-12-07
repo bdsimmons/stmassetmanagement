@@ -13,29 +13,29 @@
     }
     sliderCarousel();
 
-    //team area carousel====*/
-    function teamCarousel(){
-        if( $('.team').length ){
-            $('.team').owlCarousel({
-                loop:true,
-                margin:30,
-                autoplay: true,
-                nav: false,
-                items: 2,
-                responsiveClass:true,
-                pagination: false,
-                responsive:{
-                    0:{
-                        items:1,
-                    },
-                    650:{
-                        items:2,
-                    }
-                }
-            })
-        }
-    }
-    teamCarousel();
+    // //team area carousel====*/
+    // function teamCarousel(){
+    //     if( $('.team').length ){
+    //         $('.team').owlCarousel({
+    //             loop:true,
+    //             margin:30,
+    //             autoplay: true,
+    //             nav: false,
+    //             items: 2,
+    //             responsiveClass:true,
+    //             pagination: false,
+    //             responsive:{
+    //                 0:{
+    //                     items:1,
+    //                 },
+    //                 650:{
+    //                     items:2,
+    //                 }
+    //             }
+    //         })
+    //     }
+    // }
+    // teamCarousel();
 
     /*======latest area carousel====*/
     function latestCarousel(){

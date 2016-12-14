@@ -5,9 +5,9 @@
         if( $('.slider-carousel').length ){
             $('.slider-carousel').owlCarousel({
                 navigation : true, // Show next and prev buttons
-      singleItem:true,
-      items: 1,
-      pagination: false
+                singleItem:true,
+                items: 1,
+                pagination: false
             });
         }
     }

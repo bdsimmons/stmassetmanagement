@@ -589,6 +589,12 @@ p {
     .call-action-baner-area .baner-content .button:after {
       content: "get started";
       color: #fff; }
+  .call-action-baner-area #riskalyze-btn-container a {
+    background: white;
+    border: #F4985A;
+    color: #F4985A !important; }
+  .call-action-baner-area a.rsk-btn-logo.rsk-btn-lg.rsk-btn-lt:after {
+    border: none; }
 
 /*====================================================*/
 /*====================================================*/
@@ -649,14 +655,7 @@ p {
         top: 35px;
         right: 0; }
       .process-area .p-timeline .column:before {
-        width: 10px;
-        height: 10px;
-        content: "";
-        position: absolute;
-        border-radius: 50%;
-        border: 1px solid #F4984E;
-        right: 69px;
-        top: 17%; }
+        display: none; }
       .process-area .p-timeline .column .timeline {
         width: 270px;
         float: right; }

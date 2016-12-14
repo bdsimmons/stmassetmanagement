@@ -33,14 +33,15 @@
                 
             }
             &:before{
-                width: 10px;
-                height: 10px;
-                content: "";
-                position: absolute;
-                border-radius: 50%;
-                border: 1px solid $orange;
-                right: 69px;
-                top: 17%;
+                display: none;
+                // width: 10px;
+                // height: 10px;
+                // content: "";
+                // position: absolute;
+                // border-radius: 50%;
+                // border: 1px solid $orange;
+                // right: 69px;
+                // top: 17%;
             }
             .timeline{
                 width: 270px;

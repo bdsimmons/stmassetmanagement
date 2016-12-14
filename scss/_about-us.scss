@@ -80,4 +80,12 @@
             }
         }
     }
+    #riskalyze-btn-container a {
+        background: white;
+        border: #F4985A;
+        color: #F4985A !important;
+    }
+    a.rsk-btn-logo.rsk-btn-lg.rsk-btn-lt:after {
+        border: none;
+    }
 }

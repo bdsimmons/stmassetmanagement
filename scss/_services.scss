@@ -68,7 +68,8 @@
         padding-left: 5px;
     }
     &:hover{
-        color: white;
+        font-weight: bold;
+        color: $orange;
         i{
             transform: translateX(5px);
         }

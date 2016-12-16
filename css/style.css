@@ -492,7 +492,8 @@ p {
     float: right;
     padding-left: 5px; }
   .read-button:hover {
-    color: white; }
+    font-weight: bold;
+    color: #F4984E; }
     .read-button:hover i {
       transform: translateX(5px); }
 
@@ -557,7 +558,6 @@ p {
 
 /*====================call-action-baner-area===============*/
 .call-action-baner-area {
-  background: url("../image/about-us/call-baner1.jpg") no-repeat scroll center center;
   background-size: cover;
   position: relative;
   z-index: 1;

@@ -69,8 +69,9 @@ section.row, header.row, footer.row {
 
 p {
   font: 300 14px/25px "Raleway", sans-serif;
-  color: darkgray;
-  margin-bottom: 0; }
+  color: black;
+  margin-bottom: 0;
+  font-weight: 400px; }
 
 .section-header {
   text-align: center; }
